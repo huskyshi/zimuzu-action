@@ -35,7 +35,7 @@ jobs:
         DOMAIN="http://www.rrys2020.com/"
         COOKIE="zimuzu.cookie"
         REMEMBER="1"
-        REDIRECT="$DOMAIN/user/sign"
+        REDIRECT="$DOMAIN/user/login"
         ExpectedResponseText='{"status":0,"info":"","data":0}'
         RetryCount=1
         curl -d "account=$(urlEncode $ACCOUNT)&password=$(urlEncode $PASSWORD)&remember=$(urlEncode $REMEMBER)&url_back=$(urlEncode $REDIRECT)" \
