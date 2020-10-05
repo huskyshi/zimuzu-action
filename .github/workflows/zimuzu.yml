@@ -32,7 +32,7 @@ jobs:
         var = urllib.quote_plus(var);
         os.system('echo ' + var);"
         }
-        DOMAIN="http://www.rrys2020.com/"
+        DOMAIN="http://www.rrys2020.com"
         COOKIE="zimuzu.cookie"
         REMEMBER="1"
         REDIRECT="$DOMAIN/user/login"
